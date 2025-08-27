@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuit-Con  </title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="images/page-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/home.html">
+                <div class="navbar-element navbar-element-active">
+                    <img src="images/page-icon.png">
+                </div>
+            </a>
+
+            <a href="/eventos.html">
+                <div class="navbar-element">
+                    <p>Eventos</p>
+                </div>
+            </a>
+
+            <a href="/agenda.html">
+                <div class="navbar-element">
+                    <p>Agenda</p>
+                </div>
+            </a>
+
+            <a href="/exponentes.html">
+                <div class="navbar-element">
+                    <p>Exponentes</p>
+                </div>
+            </a>
+
+            <a href="/registro.html">
+                <div class="navbar-element">
+                    <p>Registro</p>
+                </div>
+            </a>
+            
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-div">
+            <div class="form-div-center">
+                <h1>Registro</h1>
+                <form action="" id="form" onsubmit="return false;"> <!--return false prevents the page from reloading !-->
+                    <div class="form-text-area">
+                        <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre"><br><br>
+    
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido"><br><br>
+    
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email"><br><br>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="form-selection-area">
+    
+                        <h3 class="title-1">Conferencia</h3>
+                        <h3 class="title-2">Hands-On</h3>
+    
+                        <h4>Inteligencia Artificial</h4>
+                        <input type="checkbox" id="ai-conference" name="ai-conference">
+                        <input type="checkbox" id="ai-hands-on" name="ai-hands-on">
+    
+                        <h4>Tecnologías 5G</h4>
+                        <input type="checkbox" id="5g-conference" name="5g-conference">
+                        <input type="checkbox" id="5g-hands-on" name="5g-hands-on">
+    
+                        <h4>Robótica</h4>
+                        <input type="checkbox" id="robotics-conference" name="robotics-conference">
+                        <input type="checkbox" id="robotics-hands-on" name="robotics-hands-on">
+                    </div>
+
+                    <div class="form-submit-div">
+                        <input type="submit" value="Registrar" id="form-submit">
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </main>
+    
+    <footer>
+        <div class="foot-container">
+            <div class="foot-element">
+                <h4>Teléfono</h4>
+                <p>8098480443</p>
+            </div>
+
+            <div class="foot-element">
+                <h4>Email</h4>
+                <p>circuitconinfo@gmail.com</p>
+            </div>
+
+            <div class="foot-element">
+                <h4>Dirección</h4>
+                <p>Avenida de Los Próceres #49, Los Jardines del Norte 10602, Santo Domingo, República Dominicana.</p>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <h4>&copy; Axel Valenzuela & Miguel Ureña</h4>
+        </div>
+        
+        <div id="socialmedia-line">
+            <a href="https://www.instagram.com/ces/?hl=es" target="_blank" class="socialmedia-icon">
+                <img src="images/instagram-icon.png">
+            </a>
+            <a href="https://twitter.com/CES?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="socialmedia-icon">
+                 <img src="images/twitter-icon.png">
+            </a>
+            <a href="https://www.linkedin.com/company/ces/" target="_blank" class="socialmedia-icon">
+                <img src="images/linkedin-icon.png">
+            </a>
+        </div>
+    </footer>
+
+    <script src="formHandler.js"></script>
+</body>
+</html>
